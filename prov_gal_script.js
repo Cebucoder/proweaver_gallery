@@ -93,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
             $('.proweaver_gall_viewer_con').fadeOut();
             proweaverGalleryList.src = ''; // Optionally reset the viewer image
             $('body').css('overflow', 'scroll');
+            proMinGallList.classList.remove('toggle_prov_min_gall_list');
         }
     });
 
